@@ -411,6 +411,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "ybrary"
+version = "0.1.0"
+dependencies = [
+ "yew",
+]
+
+[[package]]
 name = "yew"
 version = "0.19.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -427,13 +434,6 @@ dependencies = [
  "wasm-bindgen-futures",
  "web-sys",
  "yew-macro",
-]
-
-[[package]]
-name = "yew-at"
-version = "0.1.0"
-dependencies = [
- "yew",
 ]
 
 [[package]]
